@@ -1,0 +1,39 @@
+body{
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 20px;
+}
+
+.logo{
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: red;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+nav a{
+    text-decoration: overline;
+    text-transform: uppercase;
+    color: yellowgreen;
+    margin: 20px;
+}
+
+@media(max-width: 600px) {
+    header{
+        flex-direction: column;
+    }
+}
+.projects{
+    background-color: 30px;
+}
+.content{
+    margin-top: 30px;
+}
